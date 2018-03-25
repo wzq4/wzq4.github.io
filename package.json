@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "beta": "webpack-dev-server --config webpack.config.beta.js --profile",
     "build": "webpack --profile --config webpack.config.prod.js",
-    "build:min": "webpack -p --profile --config webpack.config.prod.js --optimize-minimize"
+    "build:min": "webpack -p --profile --config webpack.config.prod.min.js --optimize-minimize"
   },
   "repository": {
     "type": "git",
