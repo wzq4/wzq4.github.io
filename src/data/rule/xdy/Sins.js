@@ -19,7 +19,7 @@ export const Sins = {
             title: "重犯",
             titleStyle: {textAlign: "left", color: "#a94442", "fontWeight": "bolder"},
             titleStyleMobile: { background: "#a94442", color:'#FFF', "fontWeight": "bolder"},
-            contentContainerStyle: { textAlign: "center" },
+            contentContainerStyle: { textAlign: "left" },
             contents: [
                 { type: "card", name: "QQ: 2058851895", reasons:["河北-秦皇岛 2001年12月27日出生", "QQ恶意辱骂", "不捐兵，自私自利"] },
                 { type: "card", name: "开心（#P90CQ0GC0）", reasons: ["1.部落战参加不打，禁赛惩罚", "2.攻击位数错误（14位攻击对方4位）", "3.被禁赛惩罚2次，踢出部落"] },
