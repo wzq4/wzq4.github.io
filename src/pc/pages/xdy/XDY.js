@@ -119,7 +119,18 @@ export class XDY extends React.Component{
                                     contents.push(<p key={detailContent_index}>{tmpText}</p>);
                                 }
                                 //构造子卡片
-                                if(detailContent.type && detailContent.type === 'card'){
+                                if(detailContent.type && detailContent.type.match(/card-\w/)){
+                                    //构造样式
+                                    let style = { "fontWeight": "bolder" };
+                                    switch (detailContent.type){
+                                        case 'card-danger':
+                                            style.color = "#a94442";
+                                            break;
+                                        case 'card-warning':
+                                            style.color = "#8a6d3b";
+                                            break;
+                                    }
+
                                     //构造卡片内容
                                     let cardText = [];
                                     detailContent.reasons.forEach((reason)=>{
@@ -130,7 +141,7 @@ export class XDY extends React.Component{
                                         <span style={{ display:"inline-block", verticalAlign:"top", width: '20%', minWidth: "300px", padding: "20px" }}>
                                             <Card
                                                 type="inner"
-                                                title={ <div style={{color: "#a94442", "fontWeight": "bolder"}}> { detailContent.name }</div> }
+                                                title={ <div style={style}> { detailContent.name }</div> }
                                             >
                                                 { cardText }
                                             </Card>
