@@ -26,6 +26,8 @@ export const Sins = {
             titleStyleMobile: { background: "#a94442", color:'#FFF', "fontWeight": "bolder"},
             contentContainerStyle: { textAlign: "left" },
             contents: [
+                { type: "card-danger", name: "2734935362（#RJ9LRLY0）", reasons:["宣传其他部落挖墙脚", "不打部落竞赛"] },
+                { type: "card-danger", name: "你爸爸（#PG8LJVU2C）", reasons:["故意违反规定，无视规定"] },
                 { type: "card-danger", name: "QQ: 2058851895", reasons:["河北-秦皇岛 2001年12月27日出生", "QQ恶意辱骂", "不捐兵，自私自利"] },
                 { type: "card-danger", name: "开心（#P90CQ0GC0）", reasons: ["1.部落战参加不打，禁赛惩罚", "2.攻击位数错误（14位攻击对方4位）", "3.被禁赛惩罚2次，踢出部落"] },
                 { type: "card-danger", name: "釛灵（#PLRU922JG）", reasons: ["1.脏话辱骂、自私自利", "2.QQ 2714149893，生日 1993.9.1，重庆 涪陵"] },
