@@ -13,7 +13,9 @@ export const Sins = {
             titleStyle: {textAlign: "left", color: "#8a6d3b", "fontWeight": "bolder"},
             titleStyleMobile: { background: "#8a6d3b", color:'#FFF', "fontWeight": "bolder"},
             contents: [
-                { type: "card-warning", name: "顾陈是个坑（#PGYPV9VVC9）", reasons:["部落战参加没有打全2场，禁赛8场", "剩余8场"] },
+                { type: "card-warning", name: "itcf（#9CV29LOOY）", reasons:["部落战参加没有打全2场，禁赛8场", "剩余8场"] },
+                { type: "card-warning", name: "贪恋❤你温柔（#PGPPRRPUV）", reasons:["部落战参加没有打全2场，禁赛8场", "剩余8场"] },
+                { type: "card-warning", name: "顾陈是个坑（#PGYPV9VVC9）", reasons:["部落战参加没有打全2场，禁赛8场", "剩余7场"] },
                 { type: "card-warning", name: "无敌的我（#YPRYPRUVG）", reasons:["部落战参加不打，禁赛8场", "剩余8场"] },
             ],
         },
