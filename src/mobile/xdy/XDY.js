@@ -138,6 +138,7 @@ export class XDY extends React.Component{
                             }
                             //构造子卡片
                             if(detailContent.type && detailContent.type.match(/card-\w/)){
+                                console.log("构造子卡片");
                                 //构造样式
                                 let style = { "fontWeight": "bolder" };
                                 switch (detailContent.type){
@@ -147,7 +148,11 @@ export class XDY extends React.Component{
                                     case 'card-warning':
                                         style.color = "#8a6d3b";
                                         break;
+                                    case 'card-success':
+                                        style.color = "#3C763D";
+                                        break;
                                 }
+                                console.log(style);
                                 //构造卡片内容
                                 let cardText = [];
                                 detailContent.reasons.forEach((reason)=>{

@@ -129,6 +129,9 @@ export class XDY extends React.Component{
                                         case 'card-warning':
                                             style.color = "#8a6d3b";
                                             break;
+                                        case 'card-success':
+                                            style.color = "#3C763D";
+                                            break;
                                     }
 
                                     //构造卡片内容

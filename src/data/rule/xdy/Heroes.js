@@ -8,6 +8,13 @@ export const Heroes =  {
         style: {"display": "block", "textIndent":"25px"}
     },
     details: [
-
+        {
+            title: "英雄榜",
+            titleStyle: {textAlign: "left", color: "rgb(60, 118, 61)", "fontWeight": "bolder"},
+            titleStyleMobile: { background: "rgb(60, 118, 61)", color:'#FFF', "fontWeight": "bolder"},
+            contents: [
+                { type: "card-success", name: "天使与龙的轮舞（#LCL9JLY2）", reasons:["永久副首领"] }
+            ]
+        }
     ]
 };
