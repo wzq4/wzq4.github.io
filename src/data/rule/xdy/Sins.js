@@ -13,6 +13,7 @@ export const Sins = {
             titleStyle: {textAlign: "left", color: "#8a6d3b", "fontWeight": "bolder"},
             titleStyleMobile: { background: "#8a6d3b", color:'#FFF', "fontWeight": "bolder"},
             contents: [
+                { type: "card-warning", name: "《希望有你陪伴》—《战神-灵》（#Y8VJQ8YRC）", reasons:["部落战没有打全2场，禁赛8场", "剩余8场"] },
                 { type: "card-warning", name: "。。（#PY9OQUOVU）", reasons:["部落战没有打全2场，禁赛8场", "剩余8场"] },
                 { type: "card-warning", name: "碎觉觉（#PC89P2UL2）", reasons:["部落战参加不打，禁赛8场", "剩余8场"] },
                 { type: "card-warning", name: "过一星（#PRVCR8CY8）", reasons:["部落战参加不打，禁赛8场", "剩余8场"] },
