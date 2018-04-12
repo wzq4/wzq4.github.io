@@ -19,7 +19,7 @@ export const Sins = {
                 { type: "card-warning", name: "过一星（#PRVCR8CY8）", reasons:["部落战参加不打，禁赛8场", "剩余6场"] },
                 { type: "card-warning", name: "色的小姨（#P8GG0GQ2V）", reasons:["部落战没有打全2场，禁赛8场", "剩余6场"] },
                 { type: "card-warning", name: "xax1314（#PR2LGJOGR）", reasons:["部落战参加不打，禁赛8场", "剩余6场"] },
-                { type: "card-warning", name: "单身会上瘾（#PVLY99VCO）", reasons:["部落战没有打全2场，禁赛8场", "剩余6场"] },
+                // { type: "card-warning", name: "单身会上瘾（#PVLY99VCO）", reasons:["部落战没有打全2场，禁赛8场", "剩余6场"] },
                 { type: "card-warning", name: "疾影灬鸿蒙（#9YVC09GLQ）", reasons:["部落战参加不打，禁赛8场", "剩余5场"] },
                 { type: "card-warning", name: "专属（#9PPQVQ2CQ）", reasons:["部落战参加不打，禁赛8场", "剩余5场"] },
                 { type: "card-warning", name: "烈焰风暴防区（#8VJLVPYL9）", reasons:["部落战没有打全2场，禁赛8场", "剩余5场"] },
