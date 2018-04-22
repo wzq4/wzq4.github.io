@@ -40,6 +40,7 @@ export const Sins = {
             titleStyleMobile: { background: "#a94442", color:'#FFF', "fontWeight": "bolder"},
             contentContainerStyle: { textAlign: "left" },
             contents: [
+                { type: "card-danger", name: "我的枪没软过（#P8RLC8RUP）", reasons:["恶意辱骂"] },
                 { type: "card-danger", name: "郑肖植（#RRLGCCGV）", reasons:["恶意辱骂"] },
                 { type: "card-danger", name: "2734935362（#RJ9LRLY0）", reasons:["宣传其他部落挖墙脚", "不打部落竞赛"] },
                 { type: "card-danger", name: "你爸爸（#PG8LJVU2C）", reasons:["故意违反规定，无视规定"] },
