@@ -13,6 +13,9 @@ export const Sins = {
             titleStyle: {textAlign: "left", color: "#8a6d3b", "fontWeight": "bolder"},
             titleStyleMobile: { background: "#8a6d3b", color:'#FFF', "fontWeight": "bolder"},
             contents: [
+                { type: "card-warning", name: "MRSS,**（#98OLQ9VRC）", reasons:["攻击位数错误，禁赛2场", "剩余2场"] },
+                { type: "card-warning", name: "方式方法（#L9JCOO99）", reasons:["供给位数错误，禁赛2场", "剩余2场"] },
+                { type: "card-warning", name: "凌筱烨（#8Y9GYQC2L）", reasons:["部落战参加没有打全2场，禁赛8场", "剩余7场"] },
                 // { type: "card-warning", name: "《希望有你陪伴》—《战神-灵》（#Y8VJQ8YRC）", reasons:["部落战没有打全2场，禁赛8场", "剩余6场"] },
                 // { type: "card-warning", name: "。。（#PY9OQUOVU）", reasons:["部落战没有打全2场，禁赛8场", "剩余2场"] },
                 // // { type: "card-warning", name: "碎觉觉（#PC89P2UL2）", reasons:["部落战参加不打，禁赛8场", "剩余6场"] },
@@ -26,7 +29,6 @@ export const Sins = {
                 // { type: "card-warning", name: "中国合作伙伴（#PJOUQLJ8L）", reasons:["部落战没有打全2场，禁赛8场", "剩余5场"] },
                 // { type: "card-warning", name: "死亡/魔都（#Y29U2R9CG）", reasons:["部落战参加不打，禁赛8场", "剩余4场"] },
                 // { type: "card-warning", name: "咕噜部落（#2CGYCRG8J）", reasons:["部落战参加没有打全2场，禁赛8场", "剩余0场"] },
-                 { type: "card-warning", name: "凌筱烨（#8Y9GYQC2L）", reasons:["部落战参加没有打全2场，禁赛8场", "剩余8场"] },
                 // { type: "card-warning", name: "itcf（#9CV29LOOY）", reasons:["部落战参加没有打全2场，禁赛8场", "剩余8场"] },
                 // { type: "card-warning", name: "贪恋❤你温柔（#PGPPRRPUV）", reasons:["部落战参加没有打全2场，禁赛8场", "剩余8场"] },
                 // { type: "card-warning", name: "顾陈是个坑（#PGYPV9VVC9）", reasons:["部落战参加没有打全2场，禁赛8场", "剩余0场"] },
