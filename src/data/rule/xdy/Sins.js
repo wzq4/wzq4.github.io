@@ -43,6 +43,7 @@ export const Sins = {
             titleStyleMobile: { background: "#a94442", color:'#FFF', "fontWeight": "bolder"},
             contentContainerStyle: { textAlign: "left" },
             contents: [
+                { type: "card-danger", name: "至尊宝（#PPLQJRLV0）", reasons:["恶意辱骂"] },
                 { type: "card-danger", name: "噬心先生就是我，我就是噬血先生（#2YJJ9CQ80）", reasons:["恶意辱骂", "QQ 3192887660"] },
                 { type: "card-danger", name: "我的枪没软过（#P8RLC8RUP）", reasons:["恶意辱骂"] },
                 { type: "card-danger", name: "郑肖植（#RRLGCCGV）", reasons:["恶意辱骂"] },
