@@ -13,6 +13,7 @@ export const Sins = {
             titleStyle: {textAlign: "left", color: "#8a6d3b", "fontWeight": "bolder"},
             titleStyleMobile: { background: "#8a6d3b", color:'#FFF', "fontWeight": "bolder"},
             contents: [
+                { type: "card-warning", name: "轩舞Y（#YL8PRP9LY）", reasons:["部落战参加没有打全2场", "剩余8场"] },
                 //{ type: "card-warning", name: "老铁（#Y9P22C220）", reasons:["攻击位数错误，禁赛2场", "剩余1场"] },
                 //{ type: "card-warning", name: "MRSS,**（#98OLQ9VRC）", reasons:["攻击位数错误，禁赛2场", "剩余0场"] },
                 //{ type: "card-warning", name: "方式方法（#L9JCOO99）", reasons:["攻击位数错误，禁赛2场", "剩余1场"] },
