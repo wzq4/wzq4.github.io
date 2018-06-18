@@ -13,15 +13,8 @@ export const Sins = {
             titleStyle: {textAlign: "left", color: "#8a6d3b", "fontWeight": "bolder"},
             titleStyleMobile: { background: "#8a6d3b", color:'#FFF', "fontWeight": "bolder"},
             contents: [
-                // { type: "card-warning", name: "风暴英雄（#89LUCGLC2）", reasons:["不上位捐兵（第1次）", "总计禁赛5场，剩余5场"] },
-                //{ type: "card-warning", name: "万灭天龙（#PPRJLQQQ0）", reasons:["不上位捐兵（第1次）", "部落站参加不打", "总计禁赛13场，剩余13场"] },
-                //{ type: "card-warning", name: "星之海洋（#9C0PRYG0C）", reasons:["不上位捐兵（第1次）", "总计禁赛5场，剩余5场"] },
-                //{ type: "card-warning", name: "风谷（#8GPLPQPCR）", reasons:["不上位捐兵（第1次）", "总计禁赛5场，剩余5场"] },
-                //{ type: "card-warning", name: "司徒子煜（#92CCLG8GJ）", reasons:["不上位捐兵（第1次）", "总计禁赛5场，剩余5场"] },
-                //{ type: "card-warning", name: "屠龙记（#PCRJRURRQ）", reasons:["不上位捐兵（第1次）", "总计禁赛5场，剩余5场"] },
-                //{ type: "card-warning", name: "舒宝宝（#YYQQRCJCU）", reasons:["不上位捐兵（第1次）", "总计禁赛5场，剩余5场"] },
-                //{ type: "card-warning", name: "敌哥（#YYP8C2C82）", reasons:["不上位捐兵（第1次）", "总计禁赛5场，剩余5场"] },
-                //{ type: "card-warning", name: "良君（#Y2Q22G2JV）", reasons:["部落战参加不打（第1次）", "总计禁赛8场，剩余6场"] },
+                // { type: "card-warning", name: "（）", reasons:["不上位捐兵（第1次）", "总计禁赛场，剩余场"] },
+                { type: "card-warning", name: "万灭天龙（#PPRJLQQQ0）", reasons:["不上位捐兵（第1次）", "部落站参加不打", "总计禁赛13场，剩余13场"] },
             ],
         },
         {
