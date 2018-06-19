@@ -14,7 +14,13 @@ export const Sins = {
             titleStyleMobile: { background: "#8a6d3b", color:'#FFF', "fontWeight": "bolder"},
             contents: [
                 // { type: "card-warning", name: "（）", reasons:["不上位捐兵（第1次）", "总计禁赛场，剩余场"] },
-                { type: "card-warning", name: "万灭天龙（#PPRJLQQQ0）", reasons:["不上位捐兵（第1次）", "部落站参加不打", "总计禁赛13场，剩余13场"] },
+                { type: "card-warning", name: "云选阁__斌（#2L98Y9V98）", reasons:["不上位捐兵（第1次）", "总计禁赛8场，剩余8场"] },
+                { type: "card-warning", name: "海神（#PVCLQ8PJV）", reasons:["不上位捐兵（第1次）", "总计禁赛8场，剩余8场"] },
+                { type: "card-warning", name: "小狂狂（#PRYYJGC8C）", reasons:["不上位捐兵（第1次）", "总计禁赛8场，剩余8场"] },
+                { type: "card-warning", name: "♏（#9Q22QGYR0）", reasons:["不上位捐兵（第1次）", "总计禁赛8场，剩余8场"] },
+                { type: "card-warning", name: "雄村（#PUQ89CUP9）", reasons:["不上位捐兵（第1次）", "总计禁赛8场，剩余8场"] },
+                { type: "card-warning", name: "挽安（#Y09Q2Q2Y9）", reasons:["不上位捐兵（第1次）", "部落战参加不打", "总计禁赛场13，剩余13场"] },
+                { type: "card-warning", name: "万灭天龙（#PPRJLQQQ0）", reasons:["不上位捐兵（第1次）", "部落站参加不打", "总计禁赛13场，剩余12场"] },
             ],
         },
         {
