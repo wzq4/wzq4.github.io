@@ -18,8 +18,6 @@ export const Sins = {
                 { type: "card-warning", name: "海神（#PVCLQ8PJV）", reasons:["不上位捐兵（第1次）", "总计禁赛8场，剩余8场"] },
                 { type: "card-warning", name: "小狂狂（#PRYYJGC8C）", reasons:["不上位捐兵（第1次）", "总计禁赛8场，剩余8场"] },
                 { type: "card-warning", name: "♏（#9Q22QGYR0）", reasons:["不上位捐兵（第1次）", "总计禁赛8场，剩余8场"] },
-                { type: "card-warning", name: "雄村（#PUQ89CUP9）", reasons:["不上位捐兵（第1次）", "总计禁赛8场，剩余8场"] },
-                { type: "card-warning", name: "挽安（#Y09Q2Q2Y9）", reasons:["不上位捐兵（第1次）", "部落战参加不打", "总计禁赛场13，剩余13场"] },
                 { type: "card-warning", name: "万灭天龙（#PPRJLQQQ0）", reasons:["不上位捐兵（第1次）", "部落站参加不打", "总计禁赛13场，剩余12场"] },
             ],
         },
