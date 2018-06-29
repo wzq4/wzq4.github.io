@@ -14,10 +14,11 @@ export const Sins = {
             titleStyleMobile: { background: "#8a6d3b", color:'#FFF', "fontWeight": "bolder"},
             contents: [
                 // { type: "card-warning", name: "（）", reasons:["不上位捐兵（第1次）", "总计禁赛场，剩余场"] },
-                { type: "card-warning", name: "实验三年六班（#PYJQLRG29）", reasons:["不上位捐兵（第1次，禁赛5场）", "指定时间内，攻击位数错误（第1次，禁赛2场）", "总计禁赛7场，剩余7场"] },
-                { type: "card-warning", name: "帝家军（#YGPRY9J9V）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余5场"] },
-                { type: "card-warning", name: "正易（#9229LQLUJ）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余5场"] },
-                { type: "card-warning", name: "海神（#PVCLQ8PJV）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余4场"] },
+                //{ type: "card-warning", name: "实验三年六班（#PYJQLRG29）", reasons:["不上位捐兵（第1次，禁赛5场）", "指定时间内，攻击位数错误（第1次，禁赛2场）", "总计禁赛7场，剩余7场"] },
+                //{ type: "card-warning", name: "苦笑MA（#YGPRY9J9V）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余5场"] },
+                //{ type: "card-warning", name: "正易（#9229LQLUJ）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余5场"] },
+                { type: "card-warning", name: "就是不怕死（#P0LPPQL8Y）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余2场"] },
+                { type: "card-warning", name: "海神（#PVCLQ8PJV）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余1场"] },
             ],
         },
         {
