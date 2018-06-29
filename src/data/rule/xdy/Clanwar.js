@@ -6,7 +6,7 @@ export const Clanwar = {
     title:{ type: 'danger', text: "部落战强制参加，挂红牌直接踢出部落" },
     details:[
         {
-            title:"部落战援军（上位捐兵法）",
+            title:"部落战防守援军——上位捐兵法（在部落战准备期间进入部落战界面可以给自己的上位捐兵）",
             contents:[
                 { type:"warning", text:"部落战每个人只给自己的上一位捐兵（注：第一名给倒数第一个捐），其他人不用你管" },
                 "10空间——2法师+2弓箭",
