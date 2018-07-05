@@ -17,8 +17,9 @@ export const Sins = {
                 //{ type: "card-warning", name: "实验三年六班（#PYJQLRG29）", reasons:["不上位捐兵（第1次，禁赛5场）", "指定时间内，攻击位数错误（第1次，禁赛2场）", "总计禁赛7场，剩余7场"] },
                 //{ type: "card-warning", name: "苦笑MA（#YGPRY9J9V）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余5场"] },
                 //{ type: "card-warning", name: "正易（#9229LQLUJ）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余5场"] },
-                { type: "card-warning", name: "就是不怕死（#P0LPPQL8Y）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余2场"] },
-                { type: "card-warning", name: "海神（#PVCLQ8PJV）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余1场"] },
+                { type: "card-warning", name: "就是不怕死（#P0LPPQL8Y）", reasons:["不上位捐兵（第2次，禁赛10场）", "总计禁赛10场，剩余10场"] },
+                { type: "card-warning", name: "一只傻阿杰（#PYRYUYC9J）", reasons:["不上位捐兵（第1次，禁赛5场）", "部落战参加不打（第1次，禁8场）", "总计禁赛13场，剩余13场"] },
+                //{ type: "card-warning", name: "海神（#PVCLQ8PJV）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余1场"] },
             ],
         },
         {
