@@ -10,6 +10,7 @@ export const Clanwar = {
             contents:[
                 { type: 'danger', text: "1.部落战强制参加，挂红牌直接踢出部落" },
                 { type: 'danger', text: "2.部落战先到先得，鼓励抢打，标记无效" },
+                { type: 'warning', text: "3.当成员有'新成员'标记且未加入QQ群时，部落战可能不会选取你" }
             ]
         },
         {
