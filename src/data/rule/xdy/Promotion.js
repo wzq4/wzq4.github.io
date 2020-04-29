@@ -10,8 +10,7 @@ export const Promotion = {
         {
             title: "长老",
             contents: [
-                "1.每赛季捐兵量达到500",
-                "2.部落竞赛分数>=1000",
+                "1.每赛季捐兵量达到100",
                 { type: "danger", text: "3.本人不在罪人榜内"},
                 { type: "danger", text: "成为长老后，达不到要求会被降职为成员"}
             ]
