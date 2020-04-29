@@ -13,10 +13,10 @@ export const Sins = {
             titleStyle: {textAlign: "left", color: "#8a6d3b", "fontWeight": "bolder"},
             titleStyleMobile: { background: "#8a6d3b", color:'#FFF', "fontWeight": "bolder"},
             contents: [
-                { type: "card-warning", name: "圣地（#LG029G99U）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余5场"] },
-                { type: "card-warning", name: "duty（#L82VG8C99）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余4场"] },
-                { type: "card-warning", name: "China无奈（#PUJ892LGC）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余4场"] },
-                { type: "card-warning", name: "唐人ง泰坦（#LRJJCQVVV）", reasons:["不引援军（第1次，禁赛1场）", "总计禁赛1场，剩余0场"] },
+                //{ type: "card-warning", name: "圣地（#LG029G99U）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余5场"] },
+                //{ type: "card-warning", name: "duty（#L82VG8C99）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余4场"] },
+                //{ type: "card-warning", name: "China无奈（#PUJ892LGC）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余4场"] },
+                //{ type: "card-warning", name: "唐人ง泰坦（#LRJJCQVVV）", reasons:["不引援军（第1次，禁赛1场）", "总计禁赛1场，剩余0场"] },
             ],
         },
         {

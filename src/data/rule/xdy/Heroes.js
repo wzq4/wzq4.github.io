@@ -13,7 +13,8 @@ export const Heroes =  {
             titleStyle: {textAlign: "left", color: "rgb(60, 118, 61)", "fontWeight": "bolder"},
             titleStyleMobile: { background: "rgb(60, 118, 61)", color:'#FFF', "fontWeight": "bolder"},
             contents: [
-                { type: "card-success", name: "天使与龙的轮舞（#LCL9JLY2）", reasons:["永久副首领"] }
+                { type: "card-success", name: "本大神带你们这群猪（#PQGRYLJ8）", reasons:["勇于和违反规定的人斗争，永久副首领"] },
+                { type: "card-success", name: "龙族（#LRP22Q0U0）", reasons:["遵守规定，在部落重建的黑暗时期不离不弃，破格提拔为副首领"] }
             ]
         }
     ]
