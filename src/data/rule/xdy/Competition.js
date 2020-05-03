@@ -1,5 +1,5 @@
 export const Competition = {
-    id: "3",
+    id: "4",
     name: "部落竞赛",
     icon: "competition",
     details:[

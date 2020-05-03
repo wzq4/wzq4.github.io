@@ -1,5 +1,5 @@
 export const Promotion = {
-    id: '4',
+    id: '5',
     name: "升职",
     icon: "promotion",
     title:{

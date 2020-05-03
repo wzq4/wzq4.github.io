@@ -1,5 +1,5 @@
 export const Heroes =  {
-    id: '5',
+    id: '6',
     name: "英雄榜",
     icon:"heroes",
     title:{
