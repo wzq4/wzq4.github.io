@@ -37,7 +37,7 @@ export class PC extends React.Component{
             <Layout className="layout bcu-body">
                 <Header className="bcu-header">
                     <img className="logo" src="/img/coc.jpg" />
-                    <span className="slogan">最强王者联盟<span>——顶尖强者的聚集地</span></span>
+                    <span className="slogan">Digital Signal Process</span>
                     <Menu
                         theme="dark"
                         mode="horizontal"
@@ -50,8 +50,8 @@ export class PC extends React.Component{
                 </Header>
                 { this.state.currentChildPage }
                 <Footer style={{background: "#001529", color:"#FFF"}}>
-                    <span style={{fontWeight: "bold", marginRight:"10px"}}>联系方式：</span>
-                    <span style={{textIndent:"50px"}}>QQ群 594712902</span>
+                    <span style={{fontWeight: "bold", marginRight:"10px"}}>Contact</span>
+                    <span style={{textIndent:"50px"}}>xiqu4237@uni.sydney.edu.au</span>
                 </Footer>
             </Layout>
         );
