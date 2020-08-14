@@ -54,7 +54,7 @@ export class XDY extends React.Component{
                         theme="dark"
                         defaultSelectedKeys={['1']}
                         style={{ height: '100%', borderRight: 0 }}
-                        onSelect={(item, key, selectedKeys)=>this.chooseRule(item.key)}
+                        onSelect={(item, key, selectedKeys)=>this.chooseRule(key)}
                     >
                         {this.state.sidebars}
                     </Menu>
@@ -71,6 +71,7 @@ export class XDY extends React.Component{
      * @id 规定的id
      */
     chooseRule = (id) =>{
+        console.log("选择了");
         //找到这一个规定
         let curRule = null;
         data.rule.xdy.forEach((itm, i)=>{
@@ -78,6 +79,8 @@ export class XDY extends React.Component{
                 curRule = itm;
             }
         });
+        console.log(curRule);
+
         //修改标题
         this.state.title = curRule.name;
         /*** 修改内容 ***/

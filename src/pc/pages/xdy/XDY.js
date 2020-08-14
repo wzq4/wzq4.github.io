@@ -18,6 +18,7 @@ export class XDY extends React.Component{
             currentRuleName: null,
             currentRulePage: null,
         };
+
         //构造侧边栏
         data.rule.xdy.forEach((item, i)=>{
             //无链接
@@ -27,16 +28,23 @@ export class XDY extends React.Component{
 
     //默认选择第一个
     componentWillMount(){
-        this.chooseRule({key: "1"});
+
+        //this.forceUpdate();
+        this.chooseRule({key: data.rule.xdy[0].id});
+        console.log("PC/XDY在渲染前");
+    }
+    componentDidMount(){
+        console.log("PC/XDY在第一次渲染后调用");
     }
 
     render(){
+        console.log("渲染完成");
         return (
             <Layout className="bcu-article">
                 <Sider width={200} style={{ background: '#fff' }}>
                     <Menu
                         mode="inline"
-                        defaultSelectedKeys={['1']}
+                        defaultSelectedKeys={['11']}
                         style={{ height: '100%', borderRight: 0 }}
                         onSelect={(item, key, selectedKeys)=>this.chooseRule(item)}
                     >
@@ -60,14 +68,16 @@ export class XDY extends React.Component{
      * 选择规定
      */
     chooseRule = (item) => {
+        //console.log(item);
+        //console.log(data.rule.xdy);
         //找到当前选择规定
         let curItem = null;
         data.rule.xdy.forEach((itm, i)=>{
             if(itm.id.toString() === item.key.toString()){
                 curItem = itm;
-
             }
         });
+        console.log(curItem);
         //设置当前的名字
         let name = curItem.name;
         this.setState({ currentRuleName: name });
@@ -114,6 +124,9 @@ export class XDY extends React.Component{
                                             break;
                                         case "warning":
                                             tmpText = <span style={{color: "#8a6d3b"}}>{ detailContent.text }</span>;
+                                            break;
+                                        case "access":
+                                            tmpText = <span style={{color: "#3c763d"}}>{ detailContent.text }</span>;
                                             break;
                                     }
                                     contents.push(<p key={detailContent_index}>{tmpText}</p>);

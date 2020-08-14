@@ -48,8 +48,8 @@ export class App extends React.Component{
         return(
             <BrowserRouter>
                 <div className="bcu-body">
-                    { this.state.page === 'PC' ? <PC/> : null }
-                    { this.state.page === 'Mobile' ? <Mobile/> : null }
+                    { this.state.page == 'PC' ? <PC/> : null }
+                    { this.state.page == 'Mobile' ? <Mobile/> : null }
                     {/*<Route exact path="/" component={Home}/>*/}
                     {/*<Route path="/details" component={Details}/>*/}
                 </div>

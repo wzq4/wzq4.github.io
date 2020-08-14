@@ -20,11 +20,13 @@ export class Mobile extends React.Component{
                         <XDY/>
                     </Article>
                 </TabBarItem>
+                /*
                 <TabBarItem icon={<Svgs type="clan-old-icon" style={{width: '25px'}}/>} label="高手营">
                     <Article>
                         暂时无任何规定
                     </Article>
-                </TabBarItem>
+                </TabBarItem>*/
+
                 <TabBarItem icon={<Svgs type="contact" style={{width: '25px'}}/>} label="联系方式">
                     <Article>
                         <h1>联系方式</h1>
