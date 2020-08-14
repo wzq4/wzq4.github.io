@@ -28,23 +28,20 @@ export class XDY extends React.Component{
 
     //默认选择第一个
     componentWillMount(){
-
-        //this.forceUpdate();
-        this.chooseRule({key: data.rule.xdy[0].id});
-        console.log("PC/XDY在渲染前");
+        console.log("PC/XDY 渲染前");
     }
     componentDidMount(){
-        console.log("PC/XDY在第一次渲染后调用");
+        console.log("PC/XDY 渲染后");
+        this.chooseRule({key: data.rule.xdy[0].id});
     }
 
     render(){
-        console.log("渲染完成");
         return (
             <Layout className="bcu-article">
                 <Sider width={200} style={{ background: '#fff' }}>
                     <Menu
                         mode="inline"
-                        defaultSelectedKeys={['11']}
+                        defaultSelectedKeys={['1']}
                         style={{ height: '100%', borderRight: 0 }}
                         onSelect={(item, key, selectedKeys)=>this.chooseRule(item)}
                     >
@@ -89,13 +86,15 @@ export class XDY extends React.Component{
                 case "string":
                     break;
                 case "object":
-                    switch (curItem.title.type){
-                        case "danger":
-                            this.state.currentRulePage.push(<div style={{borderRadius: "5px", color: "#a94442", background:"#f2dede", padding: "15px 32px", lineHeight:'26px', marginBottom: "20px"}}><span style={curItem.title.style}>{ curItem.title.text }</span></div>);
-                            break;
-                        case "access":
-                            this.state.currentRulePage.push(<div style={{borderRadius: "5px", color: "#3c763d", background:"#dff0d8", padding: "15px 32px", lineHeight:'26px', marginBottom: "20px"}}><span style={curItem.title.style}>{ curItem.title.text }</span></div>);
-                            break;
+                    if(curItem.title.type === "danger"){
+                        this.state.currentRulePage.push(
+                            <div style={{borderRadius: "5px", color: "#a94442", background:"#f2dede", padding: "15px 32px", lineHeight:'26px', marginBottom: "20px"}}>
+                                <span style={curItem.title.style}>{ curItem.title.text }</span>
+                            </div>
+                        );
+                    }
+                    if(curItem.title.type === "access"){
+                        this.state.currentRulePage.push(<div style={{borderRadius: "5px", color: "#3c763d", background:"#dff0d8", padding: "15px 32px", lineHeight:'26px', marginBottom: "20px"}}><span style={curItem.title.style}>{ curItem.title.text }</span></div>);
                     }
                     break;
             }
@@ -173,6 +172,7 @@ export class XDY extends React.Component{
             })
         }
         //强制刷新
-        this.forceUpdate();
+        //this.forceUpdate();
+        this.setState({ currentRulePage: this.state.currentRulePage});
     }
 }

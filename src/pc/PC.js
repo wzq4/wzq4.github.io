@@ -19,17 +19,17 @@ export class PC extends React.Component{
             currentChildPage: <XDY/>,
             clans: []
         };
-
-    }
-    /**
-     * 将要构造界面时
-     */
-    componentWillMount(){
         //构造部落
         data.clans.forEach((item, i)=>{
             this.state.clans.push(<Menu.Item key={item.id} onClick={(e)=>this.chooseClan(e)}>{item.name}</Menu.Item>);
         });
-        this.forceUpdate();
+    }
+    componentWillMount(){
+        console.log("PC 渲染开始");
+    }
+
+    componentDidMount(){
+        console.log("PC 渲染完成");
     }
 
     render(){

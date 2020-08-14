@@ -8,8 +8,6 @@ import { Svgs } from "../common/Svgs";
 import "./mobile.less";
 //引入兄弟营
 import { XDY } from "./xdy/XDY";
-//引入数据
-import { data } from "../data";
 
 export class Mobile extends React.Component{
     render(){
@@ -20,12 +18,6 @@ export class Mobile extends React.Component{
                         <XDY/>
                     </Article>
                 </TabBarItem>
-                /*
-                <TabBarItem icon={<Svgs type="clan-old-icon" style={{width: '25px'}}/>} label="高手营">
-                    <Article>
-                        暂时无任何规定
-                    </Article>
-                </TabBarItem>*/
 
                 <TabBarItem icon={<Svgs type="contact" style={{width: '25px'}}/>} label="联系方式">
                     <Article>

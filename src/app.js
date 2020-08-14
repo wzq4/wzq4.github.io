@@ -22,15 +22,18 @@ export class App extends React.Component{
      * 构造前执行
      */
     componentWillMount(){
+        console.log("app 渲染前");
+
         window.removeEventListener('resize', () => this.updateSize());
-    }
-    /**
-     * 页面已经生成了
-     */
-    componentDidMount() {
         this.updateSize();
         window.addEventListener('resize', () => this.updateSize());
+        console.log("app.js resize listener is added.");
     }
+
+    componentDidMount(){
+        console.log("app 渲染后");
+    }
+
     /**
      * 更新界面
      */
@@ -45,11 +48,13 @@ export class App extends React.Component{
      * 构造app
      */
     render(){
+
+
         return(
             <BrowserRouter>
                 <div className="bcu-body">
-                    { this.state.page == 'PC' ? <PC/> : null }
-                    { this.state.page == 'Mobile' ? <Mobile/> : null }
+                    { this.state.page === 'PC' ? <PC/> : null }
+                    { this.state.page === 'Mobile' ? <Mobile/> : null }
                     {/*<Route exact path="/" component={Home}/>*/}
                     {/*<Route path="/details" component={Details}/>*/}
                 </div>
