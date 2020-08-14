@@ -13,6 +13,7 @@ webpackConfig.plugins.push(
     new webpack.NamedModulesPlugin()            // 更新组件时在控制台输出组件的路径而不是数字ID，用在开发模式
     // new webpack.HashedModuleIdsPlugin(),     // 用在生产模式
 );
+
 webpackConfig.devServer = {
     port: 8000,
     open : true,                                //配置后自动打开

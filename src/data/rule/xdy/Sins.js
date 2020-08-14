@@ -23,13 +23,13 @@ export const Sins = {
                 //{ type: "card-warning", name: "唐人ง泰坦（#LRJJCQVVV）", reasons:["不引援军（第1次，禁赛1场）", "总计禁赛1场，剩余0场"] },
 
                 // 退出部落逃避惩罚的
-                { type: "card-warning", name: "不许人间见白头(#LGVYVJPGO)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
-                { type: "card-warning", name: "高老庄(#LJL9Y2Y88)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
-                { type: "card-warning", name: "帅帅的小章鱼(#LQ82R9QYQ)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
-                { type: "card-warning", name: "玉峰养殖场(#LV2UOPCVG)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
-                { type: "card-warning", name: "劫富济贫突秃兔(#LVLRLJQQC)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
-                { type: "card-warning", name: "黑暗骑士(#LJVVYQYGV)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
-                { type: "card-warning", name: "龙族（#LRP22Q0U0）", reasons:["部落战参加不打（第1次，禁赛10场）", "总计禁赛10场，剩余10场"] },
+                //{ type: "card-warning", name: "不许人间见白头(#LGVYVJPGO)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
+                //{ type: "card-warning", name: "高老庄(#LJL9Y2Y88)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
+                //{ type: "card-warning", name: "帅帅的小章鱼(#LQ82R9QYQ)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
+                //{ type: "card-warning", name: "玉峰养殖场(#LV2UOPCVG)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
+                //{ type: "card-warning", name: "劫富济贫突秃兔(#LVLRLJQQC)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
+                //{ type: "card-warning", name: "黑暗骑士(#LJVVYQYGV)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余4场"] },
+                //{ type: "card-warning", name: "龙族（#LRP22Q0U0）", reasons:["部落战参加不打（第1次，禁赛10场）", "总计禁赛10场，剩余10场"] },
             ],
         },
         {
@@ -39,6 +39,15 @@ export const Sins = {
             titleStyleMobile: { background: "#a94442", color:'#FFF', "fontWeight": "bolder"},
             contentContainerStyle: { textAlign: "left" },
             contents: [
+                { type: "card-danger", name: "沧桑之饕餮（#80JPUC892）", reasons:["违反规定后拒绝沟通,讲话拐弯抹角"] },
+                { type: "card-danger", name: "好的，谢谢（#L9J0QJYUC）", reasons:["联赛不打对位"] },
+                { type: "card-danger", name: "我的一米阳光（#LGPYPC82Y）", reasons:["违反规定被骂后不服，道德低下"] },
+                { type: "card-danger", name: "大爱怡宝宝（#Y8PU0GJLJ）", reasons:["违反规定被骂后不服，道德低下"] },
+                { type: "card-danger", name: "地狱火（#YVU0JUPGU）", reasons:["故意违反规定"] },
+                { type: "card-danger", name: "老陈村（#YLRC8QP2V）", reasons:[""] },
+
+
+
                 { type: "card-danger", name: "竹马啊（#PU9R0RV8Q）", reasons:["竞赛积分不合格", "被踢后不反省反而恶意辱骂", "QQ 1289856087", "2000.1.31, 江苏泰州泰兴市人"] },
                 { type: "card-danger", name: "至尊宝（#PPLQJRLV0）", reasons:["恶意辱骂"] },
                 { type: "card-danger", name: "噬心先生就是我，我就是噬血先生（#2YJJ9CQ80）", reasons:["恶意辱骂", "QQ 3192887660"] },
