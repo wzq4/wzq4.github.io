@@ -1,10 +1,10 @@
 export const Sins = {
     id: '7',
-    name: "罪人榜",
+    name: "违规名单",
     icon: "sins",
     title:{
         type: "danger",
-        text: "罪人榜分成轻犯和重犯两等：轻犯仅仅记录，待错误累计移动到重犯；重犯本部落永远不收，副首领、长老一旦发现立刻踢出。如果一周内没有违反部落规定，加入QQ群联系首领，可以移出罪人榜。",
+        text: "违规名单分成轻犯和重犯两等：轻犯仅仅记录，待错误累计移动到重犯；重犯本部落永远不收，副首领、长老一旦发现立刻踢出。",
         style: { "display": "block", "textIndent": "25px"}
     },
     details: [
@@ -14,9 +14,9 @@ export const Sins = {
             titleStyleMobile: { background: "#8a6d3b", color:'#FFF', "fontWeight": "bolder"},
             contents: [
 
-                { type: "card-warning", name: "所向披靡(#PJPYQJR8L)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余2场"] },
-                { type: "card-warning", name: "天空中的猫(#LUGQJVO9L)", reasons:["部落战参加不打（第1次，禁赛2场）", "总计禁赛2场，剩余0场"] },
-                { type: "card-warning", name: "Es独孤求锤（#9P0V8JG8）", reasons:["部落战参加不打（第1次，禁赛10场）", "总计禁赛10场，剩余7场"] },
+                //{ type: "card-warning", name: "所向披靡(#PJPYQJR8L)", reasons:["部落战不上位捐兵（第1次，禁赛2场）", "不加QQ群惩罚翻倍", "总计禁赛4场，剩余2场"] },
+                //{ type: "card-warning", name: "天空中的猫(#LUGQJVO9L)", reasons:["部落战参加不打（第1次，禁赛2场）", "总计禁赛2场，剩余0场"] },
+                //{ type: "card-warning", name: "Es独孤求锤（#9P0V8JG8）", reasons:["部落战参加不打（第1次，禁赛10场）", "总计禁赛10场，剩余7场"] },
                 //{ type: "card-warning", name: "圣地（#LG029G99U）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余5场"] },
                 //{ type: "card-warning", name: "duty（#L82VG8C99）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余4场"] },
                 //{ type: "card-warning", name: "China无奈（#PUJ892LGC）", reasons:["不上位捐兵（第1次，禁赛5场）", "总计禁赛5场，剩余4场"] },
